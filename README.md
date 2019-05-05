@@ -4,7 +4,9 @@ Proyecto aplicacion controles framework de ciberseguridad de la NIST
 
 ## 1. Contexto de la base datos
 
-La line base de la información de la base de datos es tomada de la entidad Salud Capital, la cual es la rectora en salud en Bogotá D.C. responsable de garantizar el derecho a la salud a través de un modelo de atención integral e integrado y la gobernanza, para contribuir al mejoramiento de la calidad de vida de la población del Distrito Capital.
+La line base de la información de la base de datos es tomada de la entidad Salud Capital o Secretaría Distrital de Salud Bogotá, la cual es la entidad rectora en salud en Bogotá D.C. responsable de garantizar el derecho a la salud a través de un modelo de atención integral e integrado y la gobernanza, para contribuir al mejoramiento de la calidad de vida de la población del Distrito Capital.
+
+Como parte de su labor de orientar y liderar, Salud Capital usará su autonomia administrativa y financiera para la implementación de planes, políticas, programas y proyectos que conduzcan a garantizar el derecho a la salud de los habitantes del Distrito Capital.
 
 La base datos se encuentra implementada en el motor Microsoft SQL Server y se compone de tres tablas las cuales son:
 
@@ -12,7 +14,7 @@ La base datos se encuentra implementada en el motor Microsoft SQL Server y se co
 * Hijos: Datos de hijos de los capacitadores autorizados en manejo de alimentos. 
 * Enfermedades: Datos de enfermedades conocidas de los capacitadores autorizados en manejo de alimentos.
 
-Adicionalmente, con el fin de comprender mejor la información registrada en la base de datos se presenta el diccionario de datos de las tablas existentes:
+Considerando que dentro de la información manejada por Salud Capital pueden existir datos medicos o de salud, se acogerá como política interna el cumplimiento de la ley HIPAA de Estados Unidos, es espacial aquellos criterios relaciones con la seguridad de los datos. Adicionalmente, con el fin de comprender mejor la información registrada en la base de datos se presenta el diccionario de datos de las tablas existentes:
 
 ## Tabla Personas
 
