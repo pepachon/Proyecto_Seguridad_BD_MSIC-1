@@ -39,7 +39,7 @@ Bajo|1|Perdida de confidencialidad, integridad o disponibilidad en datos interno
 
 Se define la siguiente tabla de calificación de riesgo, con el fin de establecer el riesgo inherente teniendo en cuenta los valores de impacto y probabilidad:
 
-![Riesgo Inherente](./Gestion_Riesgos/Calificación_RI.png)
+![Riesgo Inherente](./Calificación_RI.png)
 
 Salud Capital decide asumir los riesgos que identificados en el nivel medio y bajo.
 
@@ -63,4 +63,4 @@ No.|Riesgo|Factor Generador|Probabilidad de Ocurrencia|Impacto|Nivel de Riesgo -
 
 Finalmente se presenta graficamente el resumen del análisis y evaluación de riesgos:
 
-![Grafica](./Gestion_Riesgos/grafico.png)
+![Grafica](./grafico.png)
