@@ -10,7 +10,7 @@ Proyecto aplicacion controles framework de ciberseguridad de la NIST
   + [Tabla personas](#tabla-personas)
   + [Tabla hijo](#tabla-hijos)
   +  [Tabla enfermedades](#tabla-enfermedades)
-* [2. Inventario (ID.AM-2)](#2-Inventario-id.am-2))
+* [2. Inventario (ID.AM-2)](#2-Inventario-idam-2)
 * [3. Flujo de datos (ID.AM-3)](./Flujo_datos/Readme.md)
 * [4. Clasificación (ID.AM-5)](./Clasificacion_Informacion/Readme.md)
 * [5. Roles y responsabilidades (ID.AM-6)](./R&R/Readme.md)
