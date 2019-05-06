@@ -2,6 +2,24 @@
 # Proyecto_Seguridad_BD_MSIC-1
 Proyecto aplicacion controles framework de ciberseguridad de la NIST
 
+[![](http://img.youtube.com/vi/6gpo9vlBhQY/0.jpg)](http://www.youtube.com/watch?v=6gpo9vlBhQY "Entrega 1")
+
+## Tabla de Contenido
+
+* [1. Contexto de la base datos](#1-contexto-de-la-base-datos)
+  + [Tabla personas](#tabla-personas)
+  + [Tabla hijo](#tabla-hijos)
+  +  [Tabla enfermedades](#tabla-enfermedades)
+* [2. Inventario (ID.AM-2)](#2-Inventario-id.am-2))
+* [3. Flujo de datos (ID.AM-3)](./Flujo_datos/Readme.md)
+* [4. Clasificación (ID.AM-5)](./Clasificacion_Informacion/Readme.md)
+* [5. Roles y responsabilidades (ID.AM-6)](./R&R/Readme.md)
+* [6. Requerimientos legales (ID.GV-3)](./Requisitos_Legales/Readme.md)
+* [7. Gestión de riesgos (ID.GV-4)](./Gestion_Riesgos/Readme.md)
+
+
+ - - -
+
 ## 1. Contexto de la base datos
 
 La line base de la información de la base de datos es tomada de la entidad Salud Capital o Secretaría Distrital de Salud Bogotá, la cual es la entidad rectora en salud en Bogotá D.C. responsable de garantizar el derecho a la salud a través de un modelo de atención integral e integrado y la gobernanza, para contribuir al mejoramiento de la calidad de vida de la población del Distrito Capital.
@@ -16,7 +34,7 @@ La base datos se encuentra implementada en el motor Microsoft SQL Server y se co
 
 Considerando que dentro de la información manejada por Salud Capital pueden existir datos medicos o de salud, se acogerá como política interna el cumplimiento de la ley HIPAA de Estados Unidos, es espacial aquellos criterios relaciones con la seguridad de los datos. Adicionalmente, con el fin de comprender mejor la información registrada en la base de datos se presenta el diccionario de datos de las tablas existentes:
 
-## Tabla Personas
+### Tabla Personas
 
 Campo | Tipo | Nulo
 ----- | ---- | ----
@@ -28,7 +46,7 @@ Tel | int (12) | Si
 Direccion | varchar (100) | Si
 Fecha_resolucion | timestamp (100) | Si
 
-## Hijos
+### Tabla Hijos
 
 Campo | Tipo | Nulo
 ----- | ---- | ----
@@ -37,7 +55,7 @@ Nombre | varchar (100) | No
 Edad | int (3) | Si
 Padre_id | int (11) | No
 
-## Enfermedades
+### Tabla Enfermedades
 
 Campo | Tipo | Nulo
 ----- | ---- | ----
@@ -51,7 +69,7 @@ Finalmente, para establecer la relación entre los datos se presenta un modelo e
 
 La información de la base datos puede encontrase en la carpeta ./BD
 
-## 2. Inventario (ID-AM-2)
+## 2. Inventario (ID.AM-2)
 
 En busca de  mantener el inventario de bases de datos se realizarán principalmente dos actividades:
 
